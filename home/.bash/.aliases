@@ -1,0 +1,23 @@
+# Easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+# Shortcuts
+alias d="cd ~/Documents/Dropbox"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias c="cd ~/code"
+alias g="git"
+alias h="history"
+alias v="vim"
+alias o="open"
+alias oo="open ."
+
+# List files
+alias l="ls -l"
+alias la="ls -la"
+alias lsd='ls -l ${colorflag} | grep "^d"'
+alias ls="ls"
