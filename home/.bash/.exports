@@ -1,3 +1,7 @@
 # Enable Terminal Colours
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# Make vim the default editor
+export EDITOR=vim
+
