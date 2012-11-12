@@ -3,6 +3,8 @@
 	name = James Kong
 [credential]
 	helper = osxkeychain
+[color]
+	ui = auto
 [alias]
 	st = status
 	ci = commit
