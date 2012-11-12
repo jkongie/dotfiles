@@ -1,4 +1,4 @@
---
+--- 
 gem: --no-rdoc --no-ri
 :benchmark: false
 :update_sources: true
@@ -7,3 +7,4 @@ gem: --no-rdoc --no-ri
 :verbose: true
 :sources: 
 - http://gems.rubyforge.org/
+
