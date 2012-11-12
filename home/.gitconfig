@@ -1,0 +1,15 @@
+[user]
+	email = jkongie@gmail.com
+	name = James Kong
+[credential]
+	helper = osxkeychain
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	di = diff
+	pom = push origin master
+	rom = rebase origin/master
+	b = branch
+	amend = commit --amend
+	lg = lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
