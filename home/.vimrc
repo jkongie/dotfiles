@@ -1,5 +1,14 @@
 set tabstop=2
 
+syntax enable
+set background=dark
+colorscheme solarized
+
+" Pathogen
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
 " disable arrow keys
 map <up> <nop>
 map <down> <nop>
