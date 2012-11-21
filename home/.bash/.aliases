@@ -35,3 +35,7 @@ alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 # Trim new lines and copy to clipboard
 alias copy="tr -d '\n' | pbcopy"
+
+# Start/Stop Postgres
+alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
